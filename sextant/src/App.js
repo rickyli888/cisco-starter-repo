@@ -1,18 +1,18 @@
 import './App.css';
+import Banner from './Banner';
+import Exhibit from './Exhibit';
 import * as React from 'react';
 
 function App() {
     return (
-    <div className="App">
-        <div className={"Banner"}>
-            <h1>Cisco Sextant</h1>
+        <div className="App">
+            <Banner bannerName="Cisco Sextant"/>
+            <Exhibit name={"First Exhibit"}/>
+            <Exhibit name={"Second Exhibit"}/>
+            <Exhibit name={"Third Exhibit"}/>
         </div>
-        <div className={"container"}>
-            <h2>Container</h2>
-        </div>
-    </div>
 
-  );
+    );
 }
 
 export default App;

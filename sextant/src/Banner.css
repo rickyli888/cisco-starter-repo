@@ -1,0 +1,9 @@
+.Banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Banner h1 {
+
+}
